@@ -11,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - PlayerAbilities
+  - NPCS
+  - Walls
   - 
   - 
   - 
