@@ -152,17 +152,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activatedAbility_WindupTimer: 1
-  activatedAbility_FiringTimer: 2
-  activatedAbility_WinddownTimer: 1
+  activatedAbility_FiringTimer: 1
+  activatedAbility_WinddownTimer: 2
   activatedAbility_CooldownTimer: 3
   stageOfAbility: 0
   abilityRigidbody: {fileID: 6323492970882524978}
+  currentArtStyle: 0
   spriteRenderer: {fileID: 3696231824765123332}
   readySprite: {fileID: 755393123, guid: 3a7e0c191199bef419ebb99404fee540, type: 3}
   windupSprite: {fileID: 1250782008, guid: 3a7e0c191199bef419ebb99404fee540, type: 3}
   firingSprite: {fileID: -402540857, guid: 3a7e0c191199bef419ebb99404fee540, type: 3}
   winddownSprite: {fileID: 561210439, guid: 3a7e0c191199bef419ebb99404fee540, type: 3}
   cooldownSprite: {fileID: -731570306, guid: 3a7e0c191199bef419ebb99404fee540, type: 3}
+  anim: {fileID: 0}
+  DEBUG_MODE: 0
 --- !u!1 &8594460444634355461
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8609089521264202453}
   - component: {fileID: 3696231824765123332}
+  - component: {fileID: 5196258595802570312}
   m_Layer: 0
   m_Name: Art
   m_TagString: Untagged
@@ -247,3 +251,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5196258595802570312
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594460444634355461}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c8b64bfeb6ffff47b5423e66a65820f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
