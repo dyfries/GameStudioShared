@@ -42,7 +42,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571177588868063492}
   m_BodyType: 1
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
@@ -241,7 +241,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1291547317, guid: 8b3752760995c4e4bb29c4bea3f04556, type: 3}
-  m_Color: {r: 0.71132076, g: 0.9546593, b: 1, a: 0.12941177}
+  m_Color: {r: 0.17321964, g: 0.9433962, b: 0, a: 0.12941177}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

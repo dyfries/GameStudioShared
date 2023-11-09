@@ -84,7 +84,7 @@ public class Ability_Simple : MonoBehaviour {
     // ========================== Initialization ===========================
     protected void Start() {
         if(currentArtStyle == ArtStyle.Sprites) {
-
+            anim.enabled = false;
         }
     }
 
